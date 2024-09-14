@@ -1,0 +1,380 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Temples</title>
+<link rel="stylesheet" href="css/tourprayag.css"> 
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+<body>
+
+	<!-- <div th:include="nav.html"></div>
+	  <br><br><br><br><br><br><br><br> -->
+	  <br>
+	   <h1 style="text-align:center; text-decoration:underline;font-weight:bold ;font-size:35px">Temples in Prayagraj</h1>
+	      <br>
+	   <p style="text-align:center; font-size:25px;text-decoration:bold;"><a href="index">Back To Home..</a></p>
+	   
+	  <div class="card-container">
+
+    <!-- This is First Card -->
+    <div class="card">
+      <div class="card-image">
+       <img src="../images/temples/alopi.jpg"> <br>
+      </div>
+      
+      <div class="card-content">
+        <h5 class="card-title">Alopi Devi Temple</h5>
+        <p class="card-text">Alopi Devi Temple is a Hindu temple, situated in Alopibagh in Prayagraj in state of Uttar Pradesh, India. It is near to the holy Sangam, or ... </p>
+        <button type="button" class="btn btn-primary " data-toggle="modal" data-target=".bd-example-modal-lg ">Show More</button>
+
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="myLargeModalLabel" style="color:indigo;font-size:15px;" >Alopi Devi Temple</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="scroll-container">
+                  <img src="../images/school/1.jpg" >
+                  <img src="../images/school/2.jpg">
+                  <img src="../images/school/3.jpg" >
+                
+                </div>
+              <hr>
+              <div class="container" style="font-size:15px;">
+            
+        <br>
+       
+        <p>Alopi Devi Temple is a Hindu temple, situated in Alopibagh in Prayagraj in state of Uttar Pradesh, India. It is near to the holy Sangam, or confluence, where the rivers Ganges, Yamuna and the legendary Sarasvati meet. Kumbh Mela is near to this place. As per some historical evidences, the Maratha warrior Shreenath Mahadji Shinde had developed the Sangam place during his stay at Prayagraj in 1771–1772. Later in 1800s, Maharani Baizabai Scindia has done some works for renovation of Sangam ghats and temples at Prayagraj.</p>
+ 
+         <br>
+         <hr>
+         Address: CVVC+M89, Alopi Bagh,<br>
+          Prayagraj, Uttar Pradesh 211006
+         <hr>
+        <div>
+       <h3><a href="https://www.alightindia.com/alopi-devi-temple#:~:text=It%20is%20believed%20that%20the,Devi%20as%20their%20guardian%20deity."> Read more about this......</a></h3>
+         </div>
+        
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+
+    <!-- This is  second card -->
+    <div class="card">
+      <div class="card-image">
+        <img src="https://theteenagertoday.com/wp/wp-content/uploads/2019/11/st-josephs-college-prayagraj-allahabad.jpg"><br>
+      </div>
+      <div class="card-content">
+        <h5 class="card-title">Mankameshwar Temple</h5>
+        <p class="card-text">It is located along the banks of river Yamuna. This temple is dedicated to Lord Shiva and is situated in ...</p>
+        <button type="button" class="btn btn-primary " data-toggle="modal" data-target=".bd-example-modal-lg2 ">Show More</button>
+
+<div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="myLargeModalLabel" style="color:indigo;font-size:15px;">Mankameshwar Temple</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="scroll-container">
+          <img src="../images/school/4.jpg">
+          <img src="../images/school/5.jpg">
+          <img src="../images/school/6.jpg">
+         
+        </div>
+      <hr>
+       <div class="container" style="font-size:15px;">
+                <p>It is located along the banks of river Yamuna. This temple is dedicated to Lord Shiva and is situated in close proximity to Saraswati Ghat. According to the Hindu calendar, in Sawan month, Mondays are considered auspicious, therefore, most of the devotees pay visit to the temple.</p>
+							<hr>
+							<div>
+							<h3><a href="https://www.sjcallahabad.org/"> Read more about this......</a></h3>
+							                           						</div>
+						                					</div>
+									
+</div>
+      </div>
+    </div> 
+  </div>
+</div>
+        
+      </div>
+    
+	 
+	 
+	 
+	 
+	 
+	  
+	<!--   this is third card -->
+	
+	 <div class="card">
+      <div class="card-image">
+        <img src="https://content.jdmagicbox.com/comp/allahabad/l8/0532px532.x532.140126113453.r8l8/catalogue/vishnu-bhagwan-public-school-and-college-gt-road-up-allahabad-schools-34w9plv.jpg" alt="Khusro Bagh"><br>
+      </div>
+      <div class="card-content">
+        <h5 class="card-title">Shivkuti Mahadev Temple</h5>
+        <p class="card-text">This temple is situated on the banks of river Yamuna and is located near Triveni which is directly ... </p>
+        <button type="button" class="btn btn-primary " data-toggle="modal" data-target=".bd-example-modal-lg4 ">Show More</button>
+
+<div class="modal fade bd-example-modal-lg4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="myLargeModalLabel" style="color:indigo;font-size:15px;">Shivkuti Mahadev Temple</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="scroll-container">
+          <img src="../images/school/7.jpg">
+          <img src="../images/school/8.jpg">
+          <img src="../images/school/9.jpg" >
+       
+        </div>
+      <hr>
+       <div class="container" style="font-size:15px;">
+       <p>This temple is situated on the banks of river Yamuna and is located near Triveni which is directly opposite to the Allahabad Fort. Popularly known as Someshwar Mahadev Temple, the temple houses the deity Someshwar Mahadev, which is the ‘Rudra Roop’ of Lord Shankar.
+
+       </p>
+      
+					
+							<hr>
+							<div>
+							<h3><a href="#"> Read more about this......</a></h3>
+							                            						</div>
+							                            						</div>
+</div>
+      </div>
+    </div> 
+  </div>
+
+    </div>
+	 </div> 
+	
+	
+	
+	
+ 
+	 
+	 
+	 
+	 	<!--   this is fourth card -->
+
+	 <div class="card">
+      <div class="card-image">
+         <img src="https://files.structurae.net/files/photos/1/yamuna_bridge_prayagraj.jpg" alt="The New Yamuna Bridge"style="float:right"><br>The New Yamuna Bridge</h2><br><br>The New Yamuna Bridge</h2><br>
+      </div>
+      <div class="card-content">
+        <h5 class="card-title">Nagvasuki Temple</h5>
+        <p class="card-text">Nagvasuki Temple, located in Daraganj is situated on the banks of the River Ganges. Dedicated to Vasuki...</p>
+        <button type="button" class="btn btn-primary " data-toggle="modal" data-target=".bd-example-modal-lg3 ">Show More</button>
+
+<div class="modal fade bd-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="myLargeModalLabel" style="color:indigo;font-size:15px;">Nagvasuki Temple<h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="scroll-container">
+          <img src="../images/bridge/1.jpg">
+          <img src="../images/bridge/2.jpg">
+          <img src="../images/bridge/3.jpg">
+       
+        </div>
+      <hr>
+       <div class="container" style="font-size:15px;">
+       <p>Nagvasuki Temple, located in Daraganj is situated on the banks of the River Ganges. Dedicated to Vasuki, who was the king of serpents, this temple is visited by large number of tourists every year.
+
+A fair is held every year near this temple on the occasion of Nag Panchami. You can see here statues of many legendery characters like Bhishm Pitamah, the great warrior of Mahabharata. This is one of the most ancient temples of Allahabad.</p>
+      
+					<hr>
+							                            						<div>
+							                            			<h3><a href="https://dppsprg.com/"> Read more about this......</a></h3>			
+									</div>
+</div>
+      </div>
+    </div> 
+  </div>
+</div>
+        
+      </div>
+    </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 	<!--   this is fifth card -->
+ <div class="card">
+      <div class="card-image">
+        <img src="https://static.toiimg.com/photo/50353552.cms" alt="Anand Bhawan"><br>
+      </div>
+      <div class="card-content">
+        <h5 class="card-title">Shankar Viman Mandapam</h5>
+        <p class="card-text">It is 130-feet-high and is located in proximity to Triveni. It is a four-storied structure that houses... </p>
+        <button type="button" class="btn btn-primary " data-toggle="modal" data-target=".bd-example-modal-lg5 ">Show More</button>
+
+<div class="modal fade bd-example-modal-lg5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="myLargeModalLabel" style="color:indigo;font-size:15px;">Shankar Viman Mandapam</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="scroll-container">
+          <img src="../images/anandbhawn/1.jpg">
+        
+          <img src="../images/anandbhawn/2.jpg">
+          <img src="../images/anandbhawn/3.jpg">
+        </div>
+      <hr>
+       <div class="container" style="font-size:15px;">
+       <p>It is 130-feet-high and is located in proximity to Triveni. It is a four-storied structure that houses the idols of Kumari Bhatt, Jagatguru Shankaracharya and Kamakshi Devi .</p>
+							<hr>
+							<div>
+							<h3><a href="https://www.dioceseofallahabad.org/Anand-bhavan.aspx#"> Read more about this......</a></h3>
+							                            						</div>			
+						</div>
+       
+       </div>
+								
+</div>
+      </div>
+    </div> 
+  </div>
+</div>
+        
+     
+   
+	 
+	 
+	 
+	 
+	 	<!--   this is sixth card -->
+ <div class="card">
+      <div class="card-image">
+         <img src="https://lh3.googleusercontent.com/proxy/zfiDLEFz4B0Z-XpHzDfUSbHsi2fdHifvPeqsh9icDb5yfUN2BnYAwrnBtVF-54NetSPTdtgu7lGuhMaJCRD3P9I4lg1IB77J7Z2wf0v-YIr59NQ"><br>
+      </div>
+      <div class="card-content">
+        <h5 class="card-title">Narayani Ashram</h5>
+        <p class="card-text">Narayani Ashram has a Temple of Lord Shiva which can be reached by climbing some stairs....</p>
+        <button type="button" class="btn btn-primary " data-toggle="modal" data-target=".bd-example-modal-lg6 ">Show More</button>
+
+<div class="modal fade bd-example-modal-lg6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="myLargeModalLabel" style="color:indigo;font-size:15px;">Narayani Ashram</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="scroll-container">
+          <img src="../images/kumbh/4.jpg">
+          <img src="../images/kumbh/5.jpg">
+          <img src="../images/kumbh/6.jpg">
+      
+        </div>
+      <hr>
+       <div class="container" style="font-size:15px;">
+              <p>Narayani Ashram has a Temple of Lord Shiva which can be reached by climbing some stairs. The most astonishing thing about the Narayani Ashram Temple is that you find the temple ending at the bank of River Ganges.
+
+Atmosphere of Narayani Ashram Temple is very calm. You can explore mythological representation of gods, goddesses and legends through stone carvings.</p>  
+              
+										<hr>
+							                            						<div>
+<h3><a href="https://bbssc.bbsschool.in/"> Read more about this......</a></h3>	
+</div>
+      </div>
+    </div> 
+  </div>
+</div>
+        
+      </div>
+    </div>
+	 </div> 
+	 
+	 
+	 
+	 
+	 	<!--   this is seventh card -->
+ <div class="card">
+      <div class="card-image">
+        <img src="https://www.jagranimages.com/images/newimg/25052021/25_05_2021-allahabad_university_21676132.jpg" alt="Allahabad Central University"><br>
+      </div>
+      <div class="card-content">
+        <h5 class="card-title">Hanuman Mandir</h5>
+        <p class="card-text">GOVT. INTER COLLEGE was established in 1865 and it is managed by the Department of Education. It is located in...</p>
+        <button type="button" class="btn btn-primary " data-toggle="modal" data-target=".bd-example-modal-lg7 ">Show More</button>
+
+<div class="modal fade bd-example-modal-lg7" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="myLargeModalLabel" style="color:indigo;font-size:15px;">Hanuman Mandir</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="scroll-container">
+          <img src="../images/central_university/1.jpg">
+          <img src="../images/central_university/2.jpg">
+          <img src="../images/central_university/3.jpg" >
+        
+        </div>
+      <hr>
+       <div class="container" style="font-size:15px;">
+          <p>Hanuman Mandir one of the unique temples in the city is located in proximity to the Allahabad Fort. The idol of Hanuman is 20 feet long and 8 feet wide. This idol is in a reclining position and is a few feet below the ground. Along with 108 Shivalingas Hanuman Temple is the tallest temple in Jhusi; and the temple has an unusually tall hanuman deity.</p>      
+               
+												                            						<hr>
+							<h3><a href=""> Read more about this......</a></h3>
+							                            											
+</div>
+      </div>
+    </div> 
+  </div>
+</div>
+        
+      </div>
+    </div>
+	 </div> 
+	  </div>
+
+      <br>
+    
+  
+	
+	  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+	
+</body>
+</html>
